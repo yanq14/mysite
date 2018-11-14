@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+#menuBtn{
+    position:absolute;
+    top:10px;
+    left:50px;
+    z-index:9;
+}
+#menuBtn img{
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+
+#menu{
+    display:none;
+    font-size:20px;
+    width:300px;
+    height:280px;
+    position:absolute;
+    z-index:5;
+    top:50px;
+    left:30px;
+    background-color:white;
+    opacity:0.9;
+    border-radius:20px;
+}
+
+.b1>ul>li{
+    padding:20px;
+}
+
+#text{
+    font-size:35px;
+    color:white;
+    position:absolute;
+    top:200px;
+    left:100px;
+    z-index:9;
+    text-align:left;
+}
+
+.slider,.slider-pics img{
+    height:600px;
+}
+
+.slider-circle{
+    height:300px;
+}
+
+.slider{
+    text-align:center;
+    margin:0 auto;
+    position:relative;
+}
+
+.slider-pics,.slider-nav,.slider-pre,.slider-next{
+    position:absolute;
+    z-index:8;
+}
+
+.slider-pics img{
+    border:none;
+}
+
+.slider-circle{
+    position:relative;
+}
+
+.slider-nav{
+    margin-left:-51px;
+    position: absolute;
+    left:50%;
+    bottom:4px;
+}
+
+.slider-nav li{
+    background:#eee9e9;
+    border-radius:50%;
+    color:#fff;line-
+    cursor:pointer;
+    margin:0 2px;
+    overflow:hidden;
+    text-align:center;
+    display:inline-block;
+    height: 10px;
+    line-height:18px;
+    width:10px;
+}
+
+.slider-nav .slider-item-selected{
+    background:white;
+}
+.slider-button a{
+    background:rgba(0,0,0,0,2);
+    color:#fff;
+    text-align:center;
+    display:block;
+    font-size:22px;
+    width:28px;
+    height:62px;
+    line-height:62px;
+    margin-top:-31px;
+    position:absolute;
+    top:50%;
+}
+
+.slider-button a:hover{
+    background:rgba(0,0,0,0,4);
+}
+
+.slider-next{
+    left:100%;
+    margin-left:-27px;
+}
+ #exploreBtn{
+     margin-top:20px;
+     text-align:center;
+     line-height:40px;
+     padding:5px;
+     font-size:25px;
+     border:1px solid white;
+     width:150px;
+     height:40px;
+     cursor:pointer;
+ }
